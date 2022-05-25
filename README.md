@@ -22,5 +22,7 @@ Please not that for **linux** atm `cmake` is also _build from sources_, so it is
 nexss yourfile.sol --help
 nexss yourfile.sol --gas
 nexss yourfile.sol --asm
+
+# -- -> abi,asm,ast,bin,bin-runtime,devdoc,function-debug,function-debug-runtime,generated-sources,generated-sources-runtime,hashes,metadata,opcodes,srcmap,srcmap-runtime,storage-layout,userdoc
 ...
 ```

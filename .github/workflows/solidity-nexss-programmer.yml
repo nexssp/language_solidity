@@ -12,4 +12,5 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - run: npx @nexssp/cli file add myfile1.sol -f -t=helloWorld
-      - run: npx @nexssp/cli myfile1.sol
+      - run: npx @nexssp/cli myfile1.sol --asm
+      - run: npx @nexssp/cli myfile1.sol --metadata
